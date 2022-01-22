@@ -4,7 +4,7 @@ Decode the image data of Unity Texture2D with texture compression uncrunched ETC
 The code is rewrited from [AssetStudio/Texture2DDecoderNative/etc.cpp](https://github.com/Perfare/AssetStudio/blob/master/Texture2DDecoderNative/etc.cpp)
 ## Usage
 The function `decodeETC2A8` in class `ETCDecoder`
-```
+```java
 public static void decodeETC2A8(byte[] data, final int width, final int height, byte[] out)
 ```
 `data` - image data of Texture2D object read from assetbundle
